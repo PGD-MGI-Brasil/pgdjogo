@@ -1,0 +1,15 @@
+{
+  "name": "PGD em jogo",
+  "short_name": "PGD em jogo",
+  "id": "pgd.br.gov",
+  "description": "Jogo sério para demonstração das vantagens do uso do Programa de Gestão e Desempenho - PGD no MGI",
+  "orientation": "landscape",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": [{
+        "src": "8eaf031fd670d22ad609f2d490bb16201664110f8b6dcc52a8309a772b8f9b25-icone.png",
+        "sizes": "512x512"
+      }]
+}

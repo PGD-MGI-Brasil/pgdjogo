@@ -1,0 +1,553 @@
+gdjs.ErroCode = {};
+gdjs.ErroCode.localVariables = [];
+gdjs.ErroCode.GDpnpLogoObjects1= [];
+gdjs.ErroCode.GDpnpLogoObjects2= [];
+gdjs.ErroCode.GDpnpLogoObjects3= [];
+gdjs.ErroCode.GDpspFundoObjects1= [];
+gdjs.ErroCode.GDpspFundoObjects2= [];
+gdjs.ErroCode.GDpspFundoObjects3= [];
+gdjs.ErroCode.GDtxtTituloObjects1= [];
+gdjs.ErroCode.GDtxtTituloObjects2= [];
+gdjs.ErroCode.GDtxtTituloObjects3= [];
+gdjs.ErroCode.GDbbtDescricaoObjects1= [];
+gdjs.ErroCode.GDbbtDescricaoObjects2= [];
+gdjs.ErroCode.GDbbtDescricaoObjects3= [];
+gdjs.ErroCode.GDsprErroObjects1= [];
+gdjs.ErroCode.GDsprErroObjects2= [];
+gdjs.ErroCode.GDsprErroObjects3= [];
+gdjs.ErroCode.GDsprChefeObjects1= [];
+gdjs.ErroCode.GDsprChefeObjects2= [];
+gdjs.ErroCode.GDsprChefeObjects3= [];
+gdjs.ErroCode.GDsprTransicaoObjects1= [];
+gdjs.ErroCode.GDsprTransicaoObjects2= [];
+gdjs.ErroCode.GDsprTransicaoObjects3= [];
+gdjs.ErroCode.GDtxtPontoGanhoObjects1= [];
+gdjs.ErroCode.GDtxtPontoGanhoObjects2= [];
+gdjs.ErroCode.GDtxtPontoGanhoObjects3= [];
+gdjs.ErroCode.GDtxtTempoObjects1= [];
+gdjs.ErroCode.GDtxtTempoObjects2= [];
+gdjs.ErroCode.GDtxtTempoObjects3= [];
+gdjs.ErroCode.GDpspSuporteTextoGrandeObjects1= [];
+gdjs.ErroCode.GDpspSuporteTextoGrandeObjects2= [];
+gdjs.ErroCode.GDpspSuporteTextoGrandeObjects3= [];
+gdjs.ErroCode.GDbtnProsseguirObjects1= [];
+gdjs.ErroCode.GDbtnProsseguirObjects2= [];
+gdjs.ErroCode.GDbtnProsseguirObjects3= [];
+gdjs.ErroCode.GDsprProducaoObjects1= [];
+gdjs.ErroCode.GDsprProducaoObjects2= [];
+gdjs.ErroCode.GDsprProducaoObjects3= [];
+gdjs.ErroCode.GDtxtProducaoObjects1= [];
+gdjs.ErroCode.GDtxtProducaoObjects2= [];
+gdjs.ErroCode.GDtxtProducaoObjects3= [];
+gdjs.ErroCode.GDpspSuporteTextoLateralObjects1= [];
+gdjs.ErroCode.GDpspSuporteTextoLateralObjects2= [];
+gdjs.ErroCode.GDpspSuporteTextoLateralObjects3= [];
+gdjs.ErroCode.GDsprBaseCalendarioObjects1= [];
+gdjs.ErroCode.GDsprBaseCalendarioObjects2= [];
+gdjs.ErroCode.GDsprBaseCalendarioObjects3= [];
+gdjs.ErroCode.GDprtFuma_95231aObjects1= [];
+gdjs.ErroCode.GDprtFuma_95231aObjects2= [];
+gdjs.ErroCode.GDprtFuma_95231aObjects3= [];
+gdjs.ErroCode.GDbtnVoltarObjects1= [];
+gdjs.ErroCode.GDbtnVoltarObjects2= [];
+gdjs.ErroCode.GDbtnVoltarObjects3= [];
+gdjs.ErroCode.GDpnlFundoEscritorioObjects1= [];
+gdjs.ErroCode.GDpnlFundoEscritorioObjects2= [];
+gdjs.ErroCode.GDpnlFundoEscritorioObjects3= [];
+gdjs.ErroCode.GDsprMesaObjects1= [];
+gdjs.ErroCode.GDsprMesaObjects2= [];
+gdjs.ErroCode.GDsprMesaObjects3= [];
+gdjs.ErroCode.GDsprFuncionario01Objects1= [];
+gdjs.ErroCode.GDsprFuncionario01Objects2= [];
+gdjs.ErroCode.GDsprFuncionario01Objects3= [];
+gdjs.ErroCode.GDsprFuncionario02Objects1= [];
+gdjs.ErroCode.GDsprFuncionario02Objects2= [];
+gdjs.ErroCode.GDsprFuncionario02Objects3= [];
+gdjs.ErroCode.GDsprFuncionario03Objects1= [];
+gdjs.ErroCode.GDsprFuncionario03Objects2= [];
+gdjs.ErroCode.GDsprFuncionario03Objects3= [];
+gdjs.ErroCode.GDsprFuncionario04Objects1= [];
+gdjs.ErroCode.GDsprFuncionario04Objects2= [];
+gdjs.ErroCode.GDsprFuncionario04Objects3= [];
+gdjs.ErroCode.GDsprFuncionario05Objects1= [];
+gdjs.ErroCode.GDsprFuncionario05Objects2= [];
+gdjs.ErroCode.GDsprFuncionario05Objects3= [];
+gdjs.ErroCode.GDsprFuncionario06Objects1= [];
+gdjs.ErroCode.GDsprFuncionario06Objects2= [];
+gdjs.ErroCode.GDsprFuncionario06Objects3= [];
+gdjs.ErroCode.GDsprFuncionario07Objects1= [];
+gdjs.ErroCode.GDsprFuncionario07Objects2= [];
+gdjs.ErroCode.GDsprFuncionario07Objects3= [];
+gdjs.ErroCode.GDsprFuncionario08Objects1= [];
+gdjs.ErroCode.GDsprFuncionario08Objects2= [];
+gdjs.ErroCode.GDsprFuncionario08Objects3= [];
+gdjs.ErroCode.GDsprFuncionario09Objects1= [];
+gdjs.ErroCode.GDsprFuncionario09Objects2= [];
+gdjs.ErroCode.GDsprFuncionario09Objects3= [];
+gdjs.ErroCode.GDsprFuncionario10Objects1= [];
+gdjs.ErroCode.GDsprFuncionario10Objects2= [];
+gdjs.ErroCode.GDsprFuncionario10Objects3= [];
+gdjs.ErroCode.GDsprFuncionario11Objects1= [];
+gdjs.ErroCode.GDsprFuncionario11Objects2= [];
+gdjs.ErroCode.GDsprFuncionario11Objects3= [];
+gdjs.ErroCode.GDsprFuncionario12Objects1= [];
+gdjs.ErroCode.GDsprFuncionario12Objects2= [];
+gdjs.ErroCode.GDsprFuncionario12Objects3= [];
+gdjs.ErroCode.GDpnlFundoParedeObjects1= [];
+gdjs.ErroCode.GDpnlFundoParedeObjects2= [];
+gdjs.ErroCode.GDpnlFundoParedeObjects3= [];
+gdjs.ErroCode.GDsprFala1Objects1= [];
+gdjs.ErroCode.GDsprFala1Objects2= [];
+gdjs.ErroCode.GDsprFala1Objects3= [];
+gdjs.ErroCode.GDsprFala2Objects1= [];
+gdjs.ErroCode.GDsprFala2Objects2= [];
+gdjs.ErroCode.GDsprFala2Objects3= [];
+gdjs.ErroCode.GDsprFala3Objects1= [];
+gdjs.ErroCode.GDsprFala3Objects2= [];
+gdjs.ErroCode.GDsprFala3Objects3= [];
+gdjs.ErroCode.GDsprFala4Objects1= [];
+gdjs.ErroCode.GDsprFala4Objects2= [];
+gdjs.ErroCode.GDsprFala4Objects3= [];
+gdjs.ErroCode.GDsprFala5Objects1= [];
+gdjs.ErroCode.GDsprFala5Objects2= [];
+gdjs.ErroCode.GDsprFala5Objects3= [];
+gdjs.ErroCode.GDsprFala6Objects1= [];
+gdjs.ErroCode.GDsprFala6Objects2= [];
+gdjs.ErroCode.GDsprFala6Objects3= [];
+gdjs.ErroCode.GDsprFala7Objects1= [];
+gdjs.ErroCode.GDsprFala7Objects2= [];
+gdjs.ErroCode.GDsprFala7Objects3= [];
+gdjs.ErroCode.GDsprFala8Objects1= [];
+gdjs.ErroCode.GDsprFala8Objects2= [];
+gdjs.ErroCode.GDsprFala8Objects3= [];
+gdjs.ErroCode.GDsprFala9Objects1= [];
+gdjs.ErroCode.GDsprFala9Objects2= [];
+gdjs.ErroCode.GDsprFala9Objects3= [];
+gdjs.ErroCode.GDsprFala10Objects1= [];
+gdjs.ErroCode.GDsprFala10Objects2= [];
+gdjs.ErroCode.GDsprFala10Objects3= [];
+gdjs.ErroCode.GDsprFala11Objects1= [];
+gdjs.ErroCode.GDsprFala11Objects2= [];
+gdjs.ErroCode.GDsprFala11Objects3= [];
+gdjs.ErroCode.GDsprFala12Objects1= [];
+gdjs.ErroCode.GDsprFala12Objects2= [];
+gdjs.ErroCode.GDsprFala12Objects3= [];
+gdjs.ErroCode.GDsprFala_9595AtivaObjects1= [];
+gdjs.ErroCode.GDsprFala_9595AtivaObjects2= [];
+gdjs.ErroCode.GDsprFala_9595AtivaObjects3= [];
+gdjs.ErroCode.GDpspFundoAzulClaroObjects1= [];
+gdjs.ErroCode.GDpspFundoAzulClaroObjects2= [];
+gdjs.ErroCode.GDpspFundoAzulClaroObjects3= [];
+gdjs.ErroCode.GDsprEquipe_95951Objects1= [];
+gdjs.ErroCode.GDsprEquipe_95951Objects2= [];
+gdjs.ErroCode.GDsprEquipe_95951Objects3= [];
+gdjs.ErroCode.GDsprEquipe_95952Objects1= [];
+gdjs.ErroCode.GDsprEquipe_95952Objects2= [];
+gdjs.ErroCode.GDsprEquipe_95952Objects3= [];
+gdjs.ErroCode.GDsprEquipe_95953Objects1= [];
+gdjs.ErroCode.GDsprEquipe_95953Objects2= [];
+gdjs.ErroCode.GDsprEquipe_95953Objects3= [];
+gdjs.ErroCode.GDbtnProsseguir2Objects1= [];
+gdjs.ErroCode.GDbtnProsseguir2Objects2= [];
+gdjs.ErroCode.GDbtnProsseguir2Objects3= [];
+gdjs.ErroCode.GDbtnProsseguir3Objects1= [];
+gdjs.ErroCode.GDbtnProsseguir3Objects2= [];
+gdjs.ErroCode.GDbtnProsseguir3Objects3= [];
+
+
+gdjs.ErroCode.eventsList0 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = !(gdjs.evtTools.systemInfo.isMobile());
+if (isConditionTrue_0) {
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Abertura", true);
+}}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+{gdjs.evtTools.advancedWindow.maximize(true, runtimeScene);
+}{gdjs.evtTools.window.centerWindow(runtimeScene);
+}}
+
+}
+
+
+};gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpspFundoObjects1Objects = Hashtable.newFrom({"pspFundo": gdjs.ErroCode.GDpspFundoObjects1});
+gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpnpLogoObjects1Objects = Hashtable.newFrom({"pnpLogo": gdjs.ErroCode.GDpnpLogoObjects1});
+gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpspSuporteTextoGrandeObjects1Objects = Hashtable.newFrom({"pspSuporteTextoGrande": gdjs.ErroCode.GDpspSuporteTextoGrandeObjects1});
+gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDtxtTituloObjects1Objects = Hashtable.newFrom({"txtTitulo": gdjs.ErroCode.GDtxtTituloObjects1});
+gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpspSuporteTextoGrandeObjects1Objects = Hashtable.newFrom({"pspSuporteTextoGrande": gdjs.ErroCode.GDpspSuporteTextoGrandeObjects1});
+gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDbbtDescricaoObjects1Objects = Hashtable.newFrom({"bbtDescricao": gdjs.ErroCode.GDbbtDescricaoObjects1});
+gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpspSuporteTextoGrandeObjects1Objects = Hashtable.newFrom({"pspSuporteTextoGrande": gdjs.ErroCode.GDpspSuporteTextoGrandeObjects1});
+gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDsprErroObjects1Objects = Hashtable.newFrom({"sprErro": gdjs.ErroCode.GDsprErroObjects1});
+gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpspSuporteTextoGrandeObjects1Objects = Hashtable.newFrom({"pspSuporteTextoGrande": gdjs.ErroCode.GDpspSuporteTextoGrandeObjects1});
+gdjs.ErroCode.eventsList1 = function(runtimeScene) {
+
+{
+
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+
+{ //Subevents
+gdjs.ErroCode.eventsList0(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+let isConditionTrue_0 = false;
+{
+gdjs.copyArray(runtimeScene.getObjects("bbtDescricao"), gdjs.ErroCode.GDbbtDescricaoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("pnpLogo"), gdjs.ErroCode.GDpnpLogoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("pspFundo"), gdjs.ErroCode.GDpspFundoObjects1);
+gdjs.copyArray(runtimeScene.getObjects("pspSuporteTextoGrande"), gdjs.ErroCode.GDpspSuporteTextoGrandeObjects1);
+gdjs.copyArray(runtimeScene.getObjects("sprErro"), gdjs.ErroCode.GDsprErroObjects1);
+gdjs.copyArray(runtimeScene.getObjects("txtTitulo"), gdjs.ErroCode.GDtxtTituloObjects1);
+{gdjs.evtTools.window.setGameResolutionResizeMode(runtimeScene, "adaptHeight");
+}{gdjs.evtsExt__Fantomas__AjustaFundo.func(runtimeScene, gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpspFundoObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__Fantomas__CentralizaHorizontal.func(runtimeScene, gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpnpLogoObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__Fantomas__CentralizaHorizontal.func(runtimeScene, gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpspSuporteTextoGrandeObjects1Objects, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__Fantomas__PosicionaDentroSuperior2.func(runtimeScene, gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDtxtTituloObjects1Objects, "Central", gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpspSuporteTextoGrandeObjects1Objects, 50, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__Fantomas__PosicionaDentroInferior2.func(runtimeScene, gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDbbtDescricaoObjects1Objects, "Esquerdo", gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpspSuporteTextoGrandeObjects1Objects, 50, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}{gdjs.evtsExt__Fantomas__PosicionaDentroInferior2.func(runtimeScene, gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDsprErroObjects1Objects, "Direito", gdjs.ErroCode.mapOfGDgdjs_9546ErroCode_9546GDpspSuporteTextoGrandeObjects1Objects, 50, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+}}
+
+}
+
+
+};
+
+gdjs.ErroCode.func = function(runtimeScene) {
+runtimeScene.getOnceTriggers().startNewFrame();
+
+gdjs.ErroCode.GDpnpLogoObjects1.length = 0;
+gdjs.ErroCode.GDpnpLogoObjects2.length = 0;
+gdjs.ErroCode.GDpnpLogoObjects3.length = 0;
+gdjs.ErroCode.GDpspFundoObjects1.length = 0;
+gdjs.ErroCode.GDpspFundoObjects2.length = 0;
+gdjs.ErroCode.GDpspFundoObjects3.length = 0;
+gdjs.ErroCode.GDtxtTituloObjects1.length = 0;
+gdjs.ErroCode.GDtxtTituloObjects2.length = 0;
+gdjs.ErroCode.GDtxtTituloObjects3.length = 0;
+gdjs.ErroCode.GDbbtDescricaoObjects1.length = 0;
+gdjs.ErroCode.GDbbtDescricaoObjects2.length = 0;
+gdjs.ErroCode.GDbbtDescricaoObjects3.length = 0;
+gdjs.ErroCode.GDsprErroObjects1.length = 0;
+gdjs.ErroCode.GDsprErroObjects2.length = 0;
+gdjs.ErroCode.GDsprErroObjects3.length = 0;
+gdjs.ErroCode.GDsprChefeObjects1.length = 0;
+gdjs.ErroCode.GDsprChefeObjects2.length = 0;
+gdjs.ErroCode.GDsprChefeObjects3.length = 0;
+gdjs.ErroCode.GDsprTransicaoObjects1.length = 0;
+gdjs.ErroCode.GDsprTransicaoObjects2.length = 0;
+gdjs.ErroCode.GDsprTransicaoObjects3.length = 0;
+gdjs.ErroCode.GDtxtPontoGanhoObjects1.length = 0;
+gdjs.ErroCode.GDtxtPontoGanhoObjects2.length = 0;
+gdjs.ErroCode.GDtxtPontoGanhoObjects3.length = 0;
+gdjs.ErroCode.GDtxtTempoObjects1.length = 0;
+gdjs.ErroCode.GDtxtTempoObjects2.length = 0;
+gdjs.ErroCode.GDtxtTempoObjects3.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoGrandeObjects1.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoGrandeObjects2.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoGrandeObjects3.length = 0;
+gdjs.ErroCode.GDbtnProsseguirObjects1.length = 0;
+gdjs.ErroCode.GDbtnProsseguirObjects2.length = 0;
+gdjs.ErroCode.GDbtnProsseguirObjects3.length = 0;
+gdjs.ErroCode.GDsprProducaoObjects1.length = 0;
+gdjs.ErroCode.GDsprProducaoObjects2.length = 0;
+gdjs.ErroCode.GDsprProducaoObjects3.length = 0;
+gdjs.ErroCode.GDtxtProducaoObjects1.length = 0;
+gdjs.ErroCode.GDtxtProducaoObjects2.length = 0;
+gdjs.ErroCode.GDtxtProducaoObjects3.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoLateralObjects1.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoLateralObjects2.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoLateralObjects3.length = 0;
+gdjs.ErroCode.GDsprBaseCalendarioObjects1.length = 0;
+gdjs.ErroCode.GDsprBaseCalendarioObjects2.length = 0;
+gdjs.ErroCode.GDsprBaseCalendarioObjects3.length = 0;
+gdjs.ErroCode.GDprtFuma_95231aObjects1.length = 0;
+gdjs.ErroCode.GDprtFuma_95231aObjects2.length = 0;
+gdjs.ErroCode.GDprtFuma_95231aObjects3.length = 0;
+gdjs.ErroCode.GDbtnVoltarObjects1.length = 0;
+gdjs.ErroCode.GDbtnVoltarObjects2.length = 0;
+gdjs.ErroCode.GDbtnVoltarObjects3.length = 0;
+gdjs.ErroCode.GDpnlFundoEscritorioObjects1.length = 0;
+gdjs.ErroCode.GDpnlFundoEscritorioObjects2.length = 0;
+gdjs.ErroCode.GDpnlFundoEscritorioObjects3.length = 0;
+gdjs.ErroCode.GDsprMesaObjects1.length = 0;
+gdjs.ErroCode.GDsprMesaObjects2.length = 0;
+gdjs.ErroCode.GDsprMesaObjects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario01Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario01Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario01Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario02Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario02Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario02Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario03Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario03Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario03Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario04Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario04Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario04Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario05Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario05Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario05Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario06Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario06Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario06Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario07Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario07Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario07Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario08Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario08Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario08Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario09Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario09Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario09Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario10Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario10Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario10Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario11Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario11Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario11Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario12Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario12Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario12Objects3.length = 0;
+gdjs.ErroCode.GDpnlFundoParedeObjects1.length = 0;
+gdjs.ErroCode.GDpnlFundoParedeObjects2.length = 0;
+gdjs.ErroCode.GDpnlFundoParedeObjects3.length = 0;
+gdjs.ErroCode.GDsprFala1Objects1.length = 0;
+gdjs.ErroCode.GDsprFala1Objects2.length = 0;
+gdjs.ErroCode.GDsprFala1Objects3.length = 0;
+gdjs.ErroCode.GDsprFala2Objects1.length = 0;
+gdjs.ErroCode.GDsprFala2Objects2.length = 0;
+gdjs.ErroCode.GDsprFala2Objects3.length = 0;
+gdjs.ErroCode.GDsprFala3Objects1.length = 0;
+gdjs.ErroCode.GDsprFala3Objects2.length = 0;
+gdjs.ErroCode.GDsprFala3Objects3.length = 0;
+gdjs.ErroCode.GDsprFala4Objects1.length = 0;
+gdjs.ErroCode.GDsprFala4Objects2.length = 0;
+gdjs.ErroCode.GDsprFala4Objects3.length = 0;
+gdjs.ErroCode.GDsprFala5Objects1.length = 0;
+gdjs.ErroCode.GDsprFala5Objects2.length = 0;
+gdjs.ErroCode.GDsprFala5Objects3.length = 0;
+gdjs.ErroCode.GDsprFala6Objects1.length = 0;
+gdjs.ErroCode.GDsprFala6Objects2.length = 0;
+gdjs.ErroCode.GDsprFala6Objects3.length = 0;
+gdjs.ErroCode.GDsprFala7Objects1.length = 0;
+gdjs.ErroCode.GDsprFala7Objects2.length = 0;
+gdjs.ErroCode.GDsprFala7Objects3.length = 0;
+gdjs.ErroCode.GDsprFala8Objects1.length = 0;
+gdjs.ErroCode.GDsprFala8Objects2.length = 0;
+gdjs.ErroCode.GDsprFala8Objects3.length = 0;
+gdjs.ErroCode.GDsprFala9Objects1.length = 0;
+gdjs.ErroCode.GDsprFala9Objects2.length = 0;
+gdjs.ErroCode.GDsprFala9Objects3.length = 0;
+gdjs.ErroCode.GDsprFala10Objects1.length = 0;
+gdjs.ErroCode.GDsprFala10Objects2.length = 0;
+gdjs.ErroCode.GDsprFala10Objects3.length = 0;
+gdjs.ErroCode.GDsprFala11Objects1.length = 0;
+gdjs.ErroCode.GDsprFala11Objects2.length = 0;
+gdjs.ErroCode.GDsprFala11Objects3.length = 0;
+gdjs.ErroCode.GDsprFala12Objects1.length = 0;
+gdjs.ErroCode.GDsprFala12Objects2.length = 0;
+gdjs.ErroCode.GDsprFala12Objects3.length = 0;
+gdjs.ErroCode.GDsprFala_9595AtivaObjects1.length = 0;
+gdjs.ErroCode.GDsprFala_9595AtivaObjects2.length = 0;
+gdjs.ErroCode.GDsprFala_9595AtivaObjects3.length = 0;
+gdjs.ErroCode.GDpspFundoAzulClaroObjects1.length = 0;
+gdjs.ErroCode.GDpspFundoAzulClaroObjects2.length = 0;
+gdjs.ErroCode.GDpspFundoAzulClaroObjects3.length = 0;
+gdjs.ErroCode.GDsprEquipe_95951Objects1.length = 0;
+gdjs.ErroCode.GDsprEquipe_95951Objects2.length = 0;
+gdjs.ErroCode.GDsprEquipe_95951Objects3.length = 0;
+gdjs.ErroCode.GDsprEquipe_95952Objects1.length = 0;
+gdjs.ErroCode.GDsprEquipe_95952Objects2.length = 0;
+gdjs.ErroCode.GDsprEquipe_95952Objects3.length = 0;
+gdjs.ErroCode.GDsprEquipe_95953Objects1.length = 0;
+gdjs.ErroCode.GDsprEquipe_95953Objects2.length = 0;
+gdjs.ErroCode.GDsprEquipe_95953Objects3.length = 0;
+gdjs.ErroCode.GDbtnProsseguir2Objects1.length = 0;
+gdjs.ErroCode.GDbtnProsseguir2Objects2.length = 0;
+gdjs.ErroCode.GDbtnProsseguir2Objects3.length = 0;
+gdjs.ErroCode.GDbtnProsseguir3Objects1.length = 0;
+gdjs.ErroCode.GDbtnProsseguir3Objects2.length = 0;
+gdjs.ErroCode.GDbtnProsseguir3Objects3.length = 0;
+
+gdjs.ErroCode.eventsList1(runtimeScene);
+gdjs.ErroCode.GDpnpLogoObjects1.length = 0;
+gdjs.ErroCode.GDpnpLogoObjects2.length = 0;
+gdjs.ErroCode.GDpnpLogoObjects3.length = 0;
+gdjs.ErroCode.GDpspFundoObjects1.length = 0;
+gdjs.ErroCode.GDpspFundoObjects2.length = 0;
+gdjs.ErroCode.GDpspFundoObjects3.length = 0;
+gdjs.ErroCode.GDtxtTituloObjects1.length = 0;
+gdjs.ErroCode.GDtxtTituloObjects2.length = 0;
+gdjs.ErroCode.GDtxtTituloObjects3.length = 0;
+gdjs.ErroCode.GDbbtDescricaoObjects1.length = 0;
+gdjs.ErroCode.GDbbtDescricaoObjects2.length = 0;
+gdjs.ErroCode.GDbbtDescricaoObjects3.length = 0;
+gdjs.ErroCode.GDsprErroObjects1.length = 0;
+gdjs.ErroCode.GDsprErroObjects2.length = 0;
+gdjs.ErroCode.GDsprErroObjects3.length = 0;
+gdjs.ErroCode.GDsprChefeObjects1.length = 0;
+gdjs.ErroCode.GDsprChefeObjects2.length = 0;
+gdjs.ErroCode.GDsprChefeObjects3.length = 0;
+gdjs.ErroCode.GDsprTransicaoObjects1.length = 0;
+gdjs.ErroCode.GDsprTransicaoObjects2.length = 0;
+gdjs.ErroCode.GDsprTransicaoObjects3.length = 0;
+gdjs.ErroCode.GDtxtPontoGanhoObjects1.length = 0;
+gdjs.ErroCode.GDtxtPontoGanhoObjects2.length = 0;
+gdjs.ErroCode.GDtxtPontoGanhoObjects3.length = 0;
+gdjs.ErroCode.GDtxtTempoObjects1.length = 0;
+gdjs.ErroCode.GDtxtTempoObjects2.length = 0;
+gdjs.ErroCode.GDtxtTempoObjects3.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoGrandeObjects1.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoGrandeObjects2.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoGrandeObjects3.length = 0;
+gdjs.ErroCode.GDbtnProsseguirObjects1.length = 0;
+gdjs.ErroCode.GDbtnProsseguirObjects2.length = 0;
+gdjs.ErroCode.GDbtnProsseguirObjects3.length = 0;
+gdjs.ErroCode.GDsprProducaoObjects1.length = 0;
+gdjs.ErroCode.GDsprProducaoObjects2.length = 0;
+gdjs.ErroCode.GDsprProducaoObjects3.length = 0;
+gdjs.ErroCode.GDtxtProducaoObjects1.length = 0;
+gdjs.ErroCode.GDtxtProducaoObjects2.length = 0;
+gdjs.ErroCode.GDtxtProducaoObjects3.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoLateralObjects1.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoLateralObjects2.length = 0;
+gdjs.ErroCode.GDpspSuporteTextoLateralObjects3.length = 0;
+gdjs.ErroCode.GDsprBaseCalendarioObjects1.length = 0;
+gdjs.ErroCode.GDsprBaseCalendarioObjects2.length = 0;
+gdjs.ErroCode.GDsprBaseCalendarioObjects3.length = 0;
+gdjs.ErroCode.GDprtFuma_95231aObjects1.length = 0;
+gdjs.ErroCode.GDprtFuma_95231aObjects2.length = 0;
+gdjs.ErroCode.GDprtFuma_95231aObjects3.length = 0;
+gdjs.ErroCode.GDbtnVoltarObjects1.length = 0;
+gdjs.ErroCode.GDbtnVoltarObjects2.length = 0;
+gdjs.ErroCode.GDbtnVoltarObjects3.length = 0;
+gdjs.ErroCode.GDpnlFundoEscritorioObjects1.length = 0;
+gdjs.ErroCode.GDpnlFundoEscritorioObjects2.length = 0;
+gdjs.ErroCode.GDpnlFundoEscritorioObjects3.length = 0;
+gdjs.ErroCode.GDsprMesaObjects1.length = 0;
+gdjs.ErroCode.GDsprMesaObjects2.length = 0;
+gdjs.ErroCode.GDsprMesaObjects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario01Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario01Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario01Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario02Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario02Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario02Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario03Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario03Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario03Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario04Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario04Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario04Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario05Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario05Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario05Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario06Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario06Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario06Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario07Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario07Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario07Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario08Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario08Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario08Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario09Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario09Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario09Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario10Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario10Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario10Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario11Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario11Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario11Objects3.length = 0;
+gdjs.ErroCode.GDsprFuncionario12Objects1.length = 0;
+gdjs.ErroCode.GDsprFuncionario12Objects2.length = 0;
+gdjs.ErroCode.GDsprFuncionario12Objects3.length = 0;
+gdjs.ErroCode.GDpnlFundoParedeObjects1.length = 0;
+gdjs.ErroCode.GDpnlFundoParedeObjects2.length = 0;
+gdjs.ErroCode.GDpnlFundoParedeObjects3.length = 0;
+gdjs.ErroCode.GDsprFala1Objects1.length = 0;
+gdjs.ErroCode.GDsprFala1Objects2.length = 0;
+gdjs.ErroCode.GDsprFala1Objects3.length = 0;
+gdjs.ErroCode.GDsprFala2Objects1.length = 0;
+gdjs.ErroCode.GDsprFala2Objects2.length = 0;
+gdjs.ErroCode.GDsprFala2Objects3.length = 0;
+gdjs.ErroCode.GDsprFala3Objects1.length = 0;
+gdjs.ErroCode.GDsprFala3Objects2.length = 0;
+gdjs.ErroCode.GDsprFala3Objects3.length = 0;
+gdjs.ErroCode.GDsprFala4Objects1.length = 0;
+gdjs.ErroCode.GDsprFala4Objects2.length = 0;
+gdjs.ErroCode.GDsprFala4Objects3.length = 0;
+gdjs.ErroCode.GDsprFala5Objects1.length = 0;
+gdjs.ErroCode.GDsprFala5Objects2.length = 0;
+gdjs.ErroCode.GDsprFala5Objects3.length = 0;
+gdjs.ErroCode.GDsprFala6Objects1.length = 0;
+gdjs.ErroCode.GDsprFala6Objects2.length = 0;
+gdjs.ErroCode.GDsprFala6Objects3.length = 0;
+gdjs.ErroCode.GDsprFala7Objects1.length = 0;
+gdjs.ErroCode.GDsprFala7Objects2.length = 0;
+gdjs.ErroCode.GDsprFala7Objects3.length = 0;
+gdjs.ErroCode.GDsprFala8Objects1.length = 0;
+gdjs.ErroCode.GDsprFala8Objects2.length = 0;
+gdjs.ErroCode.GDsprFala8Objects3.length = 0;
+gdjs.ErroCode.GDsprFala9Objects1.length = 0;
+gdjs.ErroCode.GDsprFala9Objects2.length = 0;
+gdjs.ErroCode.GDsprFala9Objects3.length = 0;
+gdjs.ErroCode.GDsprFala10Objects1.length = 0;
+gdjs.ErroCode.GDsprFala10Objects2.length = 0;
+gdjs.ErroCode.GDsprFala10Objects3.length = 0;
+gdjs.ErroCode.GDsprFala11Objects1.length = 0;
+gdjs.ErroCode.GDsprFala11Objects2.length = 0;
+gdjs.ErroCode.GDsprFala11Objects3.length = 0;
+gdjs.ErroCode.GDsprFala12Objects1.length = 0;
+gdjs.ErroCode.GDsprFala12Objects2.length = 0;
+gdjs.ErroCode.GDsprFala12Objects3.length = 0;
+gdjs.ErroCode.GDsprFala_9595AtivaObjects1.length = 0;
+gdjs.ErroCode.GDsprFala_9595AtivaObjects2.length = 0;
+gdjs.ErroCode.GDsprFala_9595AtivaObjects3.length = 0;
+gdjs.ErroCode.GDpspFundoAzulClaroObjects1.length = 0;
+gdjs.ErroCode.GDpspFundoAzulClaroObjects2.length = 0;
+gdjs.ErroCode.GDpspFundoAzulClaroObjects3.length = 0;
+gdjs.ErroCode.GDsprEquipe_95951Objects1.length = 0;
+gdjs.ErroCode.GDsprEquipe_95951Objects2.length = 0;
+gdjs.ErroCode.GDsprEquipe_95951Objects3.length = 0;
+gdjs.ErroCode.GDsprEquipe_95952Objects1.length = 0;
+gdjs.ErroCode.GDsprEquipe_95952Objects2.length = 0;
+gdjs.ErroCode.GDsprEquipe_95952Objects3.length = 0;
+gdjs.ErroCode.GDsprEquipe_95953Objects1.length = 0;
+gdjs.ErroCode.GDsprEquipe_95953Objects2.length = 0;
+gdjs.ErroCode.GDsprEquipe_95953Objects3.length = 0;
+gdjs.ErroCode.GDbtnProsseguir2Objects1.length = 0;
+gdjs.ErroCode.GDbtnProsseguir2Objects2.length = 0;
+gdjs.ErroCode.GDbtnProsseguir2Objects3.length = 0;
+gdjs.ErroCode.GDbtnProsseguir3Objects1.length = 0;
+gdjs.ErroCode.GDbtnProsseguir3Objects2.length = 0;
+gdjs.ErroCode.GDbtnProsseguir3Objects3.length = 0;
+
+
+return;
+
+}
+
+gdjs['ErroCode'] = gdjs.ErroCode;
